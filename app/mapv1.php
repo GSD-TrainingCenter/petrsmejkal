@@ -29,5 +29,15 @@ class Mapv1
     function getFloors(){
         return $this->data['building']['floors'];
     }
+    
+    function getSearchPoints(){
+        $searchPoints = array();
+        foreach($this->getFloors() as $i=>$floor) {
+            foreach($floor['points'] as $point) {
+                $searchPoints[$point['name']] =  $i;
+            }
+        }
+        return $searchPoints;
+    }
 }
 

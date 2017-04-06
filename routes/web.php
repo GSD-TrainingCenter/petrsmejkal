@@ -23,9 +23,10 @@ Route::get('/map', function () {
     $path = storage_path()."\app\maps\defaultmap\conf.json";
     $content = json_decode(file_get_contents($path), true);
     $map = new App\Mapv1($content);
+    $searchPoints =  $map->getSearchPoints();
     //$floors = $map['building']['floors'];
     
-    return view('map')->with('map',$map);
+    return view('map')->with('map',$map)->with('searchPoints', json_encode($searchPoints));
     
 });
 

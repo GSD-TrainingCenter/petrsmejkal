@@ -8,11 +8,6 @@ and open the template in the editor.
     Author     : cerveza
 */
 
-.maptool {
-    position: absolute;
-    width: 800px;
-}
-
 .floor-img {
     max-width: 100%;
     min-width: 100%;
