@@ -19,7 +19,8 @@ Route::get('/', function () {
     
 });
 
-Route::get('/map', function () {
+Route::group(['middleware' => 'auth'], function() {
+  Route::get('/map', function () {
     $path = storage_path()."\app\maps\defaultmap\conf.json";
     $content = json_decode(file_get_contents($path), true);
     $map = new App\Mapv1($content);
@@ -38,4 +39,10 @@ Route::get('/mapimg/{mapName}/{imageName}', function ($mapName,$imageName) {
             ]);
     
 });
+});
 
+
+
+
+
+Auth::routes();

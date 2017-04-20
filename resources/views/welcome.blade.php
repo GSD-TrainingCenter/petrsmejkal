@@ -2,8 +2,6 @@
 
 @section('content')
 <div class="row">
-    <p>This is indoor map project</p>
-<p>Continue by clicking on the following link</p>
-<a href="map" class='btn-primary'>Show default map</a>
+    <h2>Welcome to indoor map project</h2>
 </div>
 @endsection
