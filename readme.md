@@ -5,6 +5,8 @@ There are not so many features yet but it may come soon.
 ## current features
 - authentification
 - map viewing
+- points of interest
+- search points of interest by name
 
 ## License
 The project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
