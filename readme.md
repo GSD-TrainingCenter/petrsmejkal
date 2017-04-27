@@ -3,7 +3,7 @@ The aim of the project is to have an easy way of creating indoor maps with point
 There are not so many features yet but it may come soon.
 
 ## current features
-- authentification
+- authentication
 - map viewing
 - points of interest
 - search points of interest by name
