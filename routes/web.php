@@ -19,6 +19,12 @@ Route::get('/', function () {
     
 });
 
+Route::get('/home', function () {
+        
+    return view('welcome');
+    
+});
+
 Route::group(['middleware' => 'auth'], function() {
   Route::get('/map', function () {
     $path = storage_path()."\app\maps\defaultmap\conf.json";
