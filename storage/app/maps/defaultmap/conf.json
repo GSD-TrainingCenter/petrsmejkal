@@ -1,0 +1,70 @@
+{
+    "version": "1.0",
+    "folder": "defaultmap",
+    "organization": 
+            {
+                "name": "Test",
+                "description": "This is a default testing map",
+                "contact": "www.indoormaps.cz"
+            },
+    "building": {
+        "address": "Kings landing 1257/46, 542 03, Seven kingdoms",
+        "floors": [
+            {
+                "description": "1. floor",
+                "img": "1.jpg",
+                "points": [
+                    {
+                        "top": "10%",
+                        "left": "10%",
+                        "name": "TUD0008G",
+                        "description": "Desktop SO04"
+                    }, 
+                    {
+                        "top": "25%",
+                        "left": "30%",
+                        "name": "TUD0026G",
+                        "description": "Desktop SO08"
+                    }
+                ]
+            },
+            {
+                "description": "2. floor",
+                "img": "2.jpg",
+                "points": [
+                    {
+                        "top": "50%",
+                        "left": "45%",
+                        "name": "TUD0146G",
+                        "description": "Desktop SO08"
+                    }, 
+                    {
+                        "top": "25%",
+                        "left": "30%",
+                        "name": "N2.26",
+                        "description": "SA Office"
+                    },
+                    {
+                        "top": "88%",
+                        "left": "77%",
+                        "name": "SMRK",
+                        "description": "canteen"
+                    }
+                ]
+            },
+            {
+                "description": "3. floor",
+                "img": "3.jpg",
+                "points": [
+                    {
+                        "top": "10%",
+                        "left": "10%",
+                        "name": "TUD0022G",
+                        "description": "Desktop SO04"
+                    }
+
+                ]
+            }
+        ]
+    }
+}

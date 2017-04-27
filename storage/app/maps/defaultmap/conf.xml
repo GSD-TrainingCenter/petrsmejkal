@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<map>
+    <version>1.0</version>
+    <organization> 
+        <name>Test</name>
+        <description>This is a default testing map</description>
+        <contactt>www.indoormaps.cz</contactt>
+    </organization>
+    
+    <building> 
+        <address>Kings landing 1257/46, 542 03, Seven kingdoms</address>
+        <floors>
+            <floor>
+                <description>1. floor</description>
+                <path>/img/1.jpg</path> 
+            </floor>
+            <floor>
+                <description>2. floor</description>
+                <path>/img/2.jpg</path> 
+            </floor>
+            <floor>
+                <description>3. floor</description>
+                <path>/img/3.jpg</path> 
+            </floor>
+        </floors>
+    </building>
+</map>
